@@ -4,7 +4,7 @@ import PackageDescription
 
 let package = Package(
     name: "Thermos",
-    platforms: [.macOS(.v10_15), .iOS(.v13), .tvOS(.v13), .macCatalyst(.v13)],
+    platforms: [.macOS(.v13), .iOS(.v14), .tvOS(.v13), .macCatalyst(.v13)],
     dependencies: [
         .package(
             url: "https://github.com/stackotter/swift-cross-ui",
@@ -12,7 +12,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/MasterJ93/AtProtoKit.git",
-            from: "0.28.0",
+            from: "0.28.0"
         )
     ],
     targets: [

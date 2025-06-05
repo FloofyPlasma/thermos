@@ -7,6 +7,5 @@ struct ThermosApp: App {
         WindowGroup("Thermos") {
             LoginView()
         }
-        .defaultSize(width: 300, height: 600)
     }
 }
