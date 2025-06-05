@@ -1,0 +1,6 @@
+format_version = 2
+
+[apps.Thermos]
+identifier = 'com.example.Thermos'
+product = 'Thermos'
+version = '0.1.0'
