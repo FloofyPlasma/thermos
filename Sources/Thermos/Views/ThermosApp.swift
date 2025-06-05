@@ -5,8 +5,8 @@ import DefaultBackend
 struct ThermosApp: App {
     var body: some Scene {
         WindowGroup("Thermos") {
-            Text("Hello, World!")
-                .padding()
+            LoginView()
         }
+        .defaultSize(width: 300, height: 600)
     }
 }
